@@ -175,15 +175,3 @@ def intersection(M, N, P, Q):
 		return np.array(np.int0(M + t1 * v1))
 
 
-
-
-
-
-
-
-
-
-
-
-
-	

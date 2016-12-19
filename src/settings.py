@@ -11,3 +11,5 @@ pattern_file_path = '../pattern/pattern.jpg'
 
 # Length of pattern in realily
 QRCodeSide = 8.8
+
+

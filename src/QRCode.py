@@ -222,13 +222,3 @@ def detectQRCode(src):
 	return np.array([top_left_vertices[0], top_right_vertices[0], bot_right_corner, bot_left_vertices[0]])
 
 
-
-
-
-
-
-
-
-
-
-

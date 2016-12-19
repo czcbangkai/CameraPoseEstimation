@@ -1,6 +1,6 @@
 # Author: Zongchang (Jim) Chen
 # Junior at Haverford College, Com-Sci & Math
-# Date: Dec, 2017
+# Date: Dec, 2016
 
 # main.py 
 # Program entrance file. Initialize global variables and call main functions.
@@ -54,3 +54,5 @@ plt.gca().set_aspect('equal', adjustable='box')
 
 # Show the plots
 plt.show()
+
+
