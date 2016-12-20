@@ -49,6 +49,6 @@ If you want to add some more pictures, you can add them in the folder ```images`
 This program is coded in Mac OSX environment, so Mac users do not need to do any modifications on the code. 
 
 But since ```OpenCV``` on Mac have some issue on function ```cv2.imread```, it rotates the input image by 90 degree counter-clockwise sometimes when the image is too huge. 
-So there is one line to rotate it back in the code. If you are not using Mac, try to run the code at first, and if it does not work well, delete Line 37 in file ```camera_pose_estimate.py```.
+So there is one line to rotate it back in the code. If you are not using Mac, try to run the code at first, and if it does not work well, delete Line 37 in file ```camera_pose_estimate.py``` and try it again (sorry for Windows users （＞人＜；）).
 
 Enjoy :)
