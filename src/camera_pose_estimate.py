@@ -117,7 +117,7 @@ def visualize3D(image_path):
 	pattern_image = cv2.flip(cv2.transpose(pattern_image), 0)
 
 	# Plot pattern
-	val = QRCodeSide * pattern_image.shape[0] / 250
+	val = QRCodeSide * pattern_image.shape[0] / PatternSide
 	xx, yy = np.meshgrid(np.linspace(-val, val, pattern_image.shape[0]), 
 		np.linspace(-val, val, pattern_image.shape[0]))
 	X = xx

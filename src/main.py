@@ -7,7 +7,6 @@
 
 
 
-
 import os
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
@@ -54,5 +53,6 @@ plt.gca().set_aspect('equal', adjustable='box')
 
 # Show the plots
 plt.show()
+
 
 
