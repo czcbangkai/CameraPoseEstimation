@@ -37,7 +37,7 @@ def getImageName(image_path):
 	Input:
 		image_path: image file path - string
 	Output:
-		Image name without suffix - string
+		Image name with suffix - string
 	'''
 	dirs = image_path.split('/')
 	return dirs[-1] if len(dirs) > 0 else ''
