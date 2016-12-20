@@ -106,7 +106,7 @@ def slope(M, N):
 		N: Second point that determines the line MN - numpy.array
 	Output:
 		Case 0: Line MN is vertical
-			return False - boolean
+			return None
 		Otherwise:
 			return slope - float
 	'''
@@ -151,9 +151,9 @@ def intersection(M, N, P, Q):
 		Q: Second point that determines the line PQ - numpy.array
 	Output:
 		Case 0: Two lines overlap
-			return False - boolean
+			return None
 		Case 1: Two lines are parallel
-			return False - boolean
+			return None
 		Otherwise:
 			return intersection point - numpy.array
 	'''
