@@ -20,10 +20,6 @@ import global_figure as gf
 
 
 
-if debug == True and not os.path.exists(data_file_path):
-    os.makedirs(data_file_path)
-
-
 # Establish global figure
 gf.fig = plt.figure()
 gf.ax = gf.fig.add_subplot(111, projection='3d')
